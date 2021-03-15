@@ -25,7 +25,9 @@ SECRET_KEY = '+y(q&1yz@@ncy+8%w@b%^r%l4+%hnc%rxd)_5k5vzg2oqwcdxg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "notes-by-python.herokuapp.com"
+]
 
 
 # Application definition
